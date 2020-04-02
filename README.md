@@ -53,7 +53,7 @@ There was an app crash problem when clicking on the detail views, so I tried to 
 <img src="https://imgur.com/jgxXitB.gif" width=250><br>
 
 ### Notes
-In the middle of writing the code, the emulator did not run suddenly. I solved the problem by reinstalling Android Studio and executed Clean Project and rebuilt it.
+In the middle of writing the code, the emulator did not run suddenly. I solved the problem by reinstalling Android Studio and cleaning & rebuilding the project.
 
 ### Open-source libraries used
 
