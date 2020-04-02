@@ -21,13 +21,11 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthough GIF
 
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
-
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="https://imgur.com/Niu3vKn.gif" width=250><br>
 
 ### Notes
 
-Describe any challenges encountered while building the app.
+There was an app crash problem when clicking on the detail views, so I tried to take a look into Logcat and found there was a NullPointerException in DetailActivity.java. I tried some solutions such as try-catch, string-valueof, if-else, and finally I solved the problem by simply correcting the typo from tvTitle to tvOverView.
 
 ## Open-source libraries used
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
